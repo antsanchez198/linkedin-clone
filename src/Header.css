@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding: 10px 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-left > img {
+    /* object contain makes sure that the img keeps it's aspect ratio */
+    object-fit: contain; 
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    background-color: #eef3f8;
+}
+
+.header-search > input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header-right {
+    display: flex;
+
+}
